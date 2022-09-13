@@ -1,0 +1,1 @@
+/Users/macbook_kp/AndroidStudioProjects/MyFlix/buildSrc/build/classes/kotlin/main/AndroidProjectConfig.class:/Users/macbook_kp/AndroidStudioProjects/MyFlix/buildSrc/build/classes/kotlin/main/Libraries$Versions.class:/Users/macbook_kp/AndroidStudioProjects/MyFlix/buildSrc/build/classes/kotlin/main/Libraries.class
