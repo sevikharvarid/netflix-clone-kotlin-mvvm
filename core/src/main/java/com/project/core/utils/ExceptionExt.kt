@@ -9,8 +9,8 @@ import java.lang.Exception
 fun Context.getErrorMessage(exception: Exception
 ): String{
     return when(exception){
-        is NoInternetConnectionException ->"Something is wrong with internet connection\\nMake sure you have an Internet Connection and try again."
+        is NoInternetConnectionException -> getString(com.project.styling.R.string.message_error_no_internet)
         is ApiErrorException -> exception.message.orEmpty()
-        else -> "\"Something is wrong when fetch data\\\\nPlease try again\""
+        else -> getString(com.project.styling.R.string.message_error_unknown)
         }
 }
